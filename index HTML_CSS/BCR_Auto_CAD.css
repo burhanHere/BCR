@@ -1,0 +1,262 @@
+* {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.html_body {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #7ED957, rgba(245, 222, 179, 0.527), #7ED957);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.logo_nev_container {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.div_BCR {
+    padding: 0%;
+    width: 14.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    height: 15.5vh;
+}
+
+.BCR_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nev {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 30vw;
+    margin-left: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nev_button_home_about_contact {
+    height: 7vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.nev_button_home_about_contact:hover {
+    transition: 0.25s;
+    color: #7ED957;
+}
+
+.a_nev_buttons {
+    text-decoration: none;
+}
+
+.left_aside_content_container_right_aside {
+    display: flex;
+}
+
+.left_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.content_row_container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80vw;
+    height: 100vh;
+}
+
+.Auto_CAD_heading_outter {
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Auto_CAD_heading {
+    height: 100%;
+    width: 13%;
+}
+
+.Auto_CAD_logo {
+    height: 100%;
+    width: 100%;
+}
+
+.Auto_CAD_Info_p_div {
+    background-color: rgba(255, 0, 0, 0.493);
+    border-radius: 3pc 3pc 3pc 3pc;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Auto_CAD_Info_p1 {
+    color: white;
+    font-size: 150%;
+    height: 30%;
+    width: 100%;
+}
+
+.process_to_view_project_heading_h2 {
+    color: #fffdfd;
+    text-align: center;
+}
+
+.Auto_CAD_Info_p2 {
+    text-align: center;
+    color: white;
+    height: 30%;
+    width: 100%;
+}
+
+.pdfs_container_s_container {
+    margin-top: 5%;
+    padding-top: 2%;
+    width: 76vw;
+    display: grid;
+    justify-content: center;
+}
+
+.pdfs_row_container {
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.pdfs_row_container_a {
+    transition: 0.5s;
+    width: 30vw;
+    height: 40vh;
+}
+
+.pdfs_row_container_a:hover {
+    transition: 0.5s;
+    width: 35vw;
+    height: 45vh;
+}
+
+.pdfs_row_container_a_div_standerd {
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.pdfs_row_container_a_div_1 {
+    background-image: url('../Auto-CAD/PNGs/First Floor (1)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_2 {
+    background-image: url('../Auto-CAD/PNGs/First Floor (1.1)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_3 {
+    background-image: url('../Auto-CAD/PNGs/First Floor (2)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_4 {
+    background-image: url('../Auto-CAD/PNGs/First Floor (2.1)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_5 {
+    background-image: url('../Auto-CAD/PNGs/First Floor (2.2)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_6 {
+    background-image: url('../Auto-CAD/PNGs/Ground Floor (1)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_7 {
+    background-image: url('../Auto-CAD/PNGs/Ground Floor (2)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_8 {
+    background-image: url('../Auto-CAD/PNGs/Ground Floor (2.1)-1.png');
+}
+
+.pdfs_row_container_a_div_9 {
+    background-image: url('../Auto-CAD/PNGs/Ground Floor (2.2)-Layout1-1.png');
+}
+
+.pdfs_row_container_a_div_10 {
+    background-image: url('../Auto-CAD/PNGs/diagram 1-4-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_11 {
+    background-image: url('../Auto-CAD/PNGs/diagram 5-8-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_12 {
+    background-image: url('../Auto-CAD/PNGs/diagram 9-12-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_13 {
+    background-image: url('../Auto-CAD/PNGs/diagram 13-16-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_14 {
+    background-image: url('../Auto-CAD/PNGs/diagram 17-20-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_15 {
+    background-image: url('../Auto-CAD/PNGs/diagram 21-22-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_16 {
+    background-image: url('../Auto-CAD/PNGs/3D-palns for retten set frames-Layout2-1.png');
+}
+
+.pdfs_row_container_a_div_17 {
+    background-image: url('../Auto-CAD/PNGs/burhan-Layout1.png');
+}
+
+.pdfs_row_container_a_div_18 {
+    background-image: url('../Auto-CAD/PNGs/Uncle Sajjad-Floor Plan(Ground_Floor)-1.png');
+}
+
+.right_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.p_email_number {
+    margin-top: 5%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    margin-bottom: 0%;
+    background-image: repeating-linear-gradient(to bottom, rgba(245, 222, 179, 0.527), white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100%;
+}

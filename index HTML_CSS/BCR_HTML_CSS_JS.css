@@ -1,0 +1,232 @@
+* {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.html_body {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #7ED957, rgba(245, 222, 179, 0.527), #7ED957);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.logo_nev_container {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.div_BCR {
+    padding: 0%;
+    width: 14.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    height: 15.5vh;
+}
+
+.BCR_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nev {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 30vw;
+    margin-left: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nev_button_home_about_contact {
+    height: 7vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.nev_button_home_about_contact:hover {
+    transition: 0.25s;
+    color: #7ED957;
+}
+
+.a_nev_buttons {
+    text-decoration: none;
+}
+
+.left_aside_content_container_right_aside {
+    display: flex;
+}
+
+.left_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.content_container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80vw;
+    height: 100vh;
+}
+
+.HTML_CSS_JS_heading_outter {
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.HTML_CSS_JS_heading {
+    height: 100%;
+    width: 20%;
+}
+
+.HTML_CSS_JS_logo {
+    height: 106%;
+    width: 100%;
+}
+
+.HTML_CSS_JS_Info_p_div {
+    background-color: rgba(255, 0, 0, 0.493);
+    border-radius: 3pc 3pc 3pc 3pc;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.HTML_CSS_JS_Info_p1 {
+    color: white;
+    font-size: 150%;
+    height: 30%;
+    width: 100%;
+}
+
+.process_to_view_project_heading_h2 {
+    color: #fffdfd;
+    text-align: center;
+}
+
+.HTML_CSS_JS_Info_p2 {
+    color: white;
+    height: 30%;
+    width: 100%;
+}
+
+.projects_container_s_container {
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+.project_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid gray;
+    background-color: rgba(128, 128, 128, 0.342);
+    border-radius: 1pc 1pc 1pc 1pc;
+    margin-bottom: 2%;
+    height: auto;
+    width: 90%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.projects_icon_Standerd_properties {
+    width: 12%;
+    height: 12vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.projects_icon_Standerd_properties:hover {
+    transition: 0.5s;
+    width: 15%;
+    height: 15vh;
+}
+
+.project_1_icon {
+    background-image: url("../Media/BR-portfolios.png");
+}
+
+.project_2_3_5_icon {
+    background-image: url("../Media/Burhan CV 1&2.png");
+}
+
+.project_4_icon {
+    background-image: url("../Media/hero_image_for_icon.png");
+}
+
+.project_4_5_6_7_8_9_10_11_12_13_14_15_icon {
+    background-image: url("../Media/Project Gytonda.png");
+}
+
+.project_16_17_icon {
+    background-image: url("../Media/Stationary Lab 1&2.png");
+}
+
+.projects_one_liner_discription {
+    width: 85%;
+    color: white;
+}
+
+.projects_one_liner_discription_p {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 105%;
+}
+
+.projects_one_liner_discription_p:hover {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+}
+
+.right_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.p_email_number {
+    margin-top: 5%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    margin-bottom: 0%;
+    background-image: repeating-linear-gradient(to bottom, rgba(245, 222, 179, 0.527), white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100%;
+}

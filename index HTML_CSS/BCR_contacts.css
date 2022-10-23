@@ -1,0 +1,164 @@
+* {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.html_body {
+    width: 100vw;
+    background-color: rgba(245, 222, 179, 0.527);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.logo_nev_container {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.div_BCR {
+    padding: 0%;
+    width: 14.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    height: 15.5vh;
+}
+
+.BCR_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nev {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 30vw;
+    margin-left: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nev_button_home_about_contact {
+    height: 7vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nev_button_home_about_contact:hover {
+    transition: 0.25s;
+    color: #7ED957;
+}
+
+.a_nev_buttons {
+    text-decoration: none;
+}
+
+.contacts_container {
+    height: 78vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: linear-gradient(to bottom, #7ED957, rgba(245, 222, 179, 0.527));
+}
+
+.phone {
+    background-image: url("../Media/Phone2_2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 17%;
+}
+
+.pushing__social_media_handel_icons_row_container__done {
+    height: 58%;
+}
+
+.social_media_handel_icons_row_container {
+    margin-left: 2%;
+    height: 31%;
+    width: 95%;
+    display: grid;
+    align-items: center;
+}
+
+.social_media_handel_icons_row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.icon_properties {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100%;
+}
+
+.icon_properties:hover {
+    transition: 0.25s;
+    width: 25%;
+    height: 115%;
+}
+
+.icon1 {
+    background-image: url("../Media/facebook.png");
+}
+
+.icon2 {
+    background-image: url("../Media/twitter.png");
+}
+
+.icon3 {
+    background-image: url("../Media/instagram.png");
+}
+
+.icon4 {
+    background-image: url("../Media/whatsapp.png");
+}
+
+.icon5 {
+    background-image: url("../Media/youtube.png");
+}
+
+/*NOTE ::::: These comments will be removed when we want to add new social media handels on this page.*/
+
+/* 
+.icon6 {
+    background-image: url("discord.png");
+}
+
+.icon7 {
+    background-image: url("discord.png");
+}
+
+.icon8 {
+    background-image: url("discord.png");
+} */
+
+.p_email_number {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 150%;
+}

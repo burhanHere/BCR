@@ -1,0 +1,185 @@
+* {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.html_body {
+    width: 100vw;
+    background-color: rgba(245, 222, 179, 0.527);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.logo_nev_container {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.div_BCR {
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding: 0%;
+    width: 14.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    height: 15.5vh;
+}
+
+.BCR_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nev {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 30vw;
+    margin-left: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nev_button_home_about_contact {
+    height: 7vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+.nev_button_home_about_contact:hover {
+    transition: 0.25s;
+    color: #7ED957;
+}
+
+.a_nev_buttons {
+    text-decoration: none;
+}
+
+.about_creater_outter_container {
+    /* background-color: #7ED957; */
+    background-image: linear-gradient(to bottom, #7ED957, rgba(245, 222, 179, 0.527), #7ED957);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    height: 70vh;
+    width: 100vw;
+}
+
+.about_creater {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 60vh;
+    width: 50vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 0.52pc;
+}
+
+.image_div {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-image: url("../Media/burhan.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.creater_info {
+    height: 75%;
+    width: 40vw;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #7ED957;
+    border-width: 2px;
+    background-color: #7ED9572d;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+}
+
+.CEO_at_BCR_h3 {
+    text-align: center;
+}
+
+.about_creater_h1 {
+    text-align: center;
+}
+
+.about_creater_hr_1_3 {
+    width: 100%;
+    border-color: black;
+}
+
+.about_BCR_outter {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about_BCR_inner {
+    background-color: rgba(245, 222, 179, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_about_BCR {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 150%;
+    width: 80%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.about_BCR_image_in_p {
+    margin-left: 40%;
+    width: 20%;
+    height: auto
+}
+
+.p_email_number {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100%;
+}

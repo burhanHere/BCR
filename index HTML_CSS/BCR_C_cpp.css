@@ -1,0 +1,188 @@
+* {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.html_body {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #7ED957, rgba(245, 222, 179, 0.527), #7ED957);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.logo_nev_container {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.div_BCR {
+    padding: 0%;
+    width: 14.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    height: 15.5vh;
+}
+
+.BCR_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nev {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 30vw;
+    margin-left: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nev_button_home_about_contact {
+    height: 7vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nev_button_home_about_contact:hover {
+    transition: 0.25s;
+    color: #7ED957;
+}
+
+.a_nev_buttons {
+    text-decoration: none;
+}
+
+.left_aside_content_container_right_aside {
+    display: flex;
+}
+
+.left_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.content_row_container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80vw;
+    height: 100vh;
+}
+
+.C_CPP_heading_outter {
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.C_CPP_heading {
+    height: 100%;
+    width: 13%;
+}
+
+.C_CPP_logo {
+    height: 106%;
+    width: 100%;
+}
+
+.C_CPP_Info_p_div {
+    background-color: rgba(255, 0, 0, 0.493);
+    border-radius: 3pc 3pc 3pc 3pc;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.C_CPP_Info_p1 {
+    color: white;
+    font-size: 150%;
+    height: 30%;
+    width: 100%;
+}
+
+.process_to_view_project_heading_h2 {
+    color: #fffdfd;
+    text-align: center;
+}
+
+.C_CPP_Info_p2 {
+    text-align: center;
+    color: white;
+    height: 30%;
+    width: 100%;
+}
+
+.coming_soon_div {
+    height: 10%;
+}
+
+.coming_soon_p {
+    text-align: center;
+    border-radius: 7rem;
+    margin-top: 2%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.493);
+    font-size: 160%;
+    color: white;
+    border: radius 7rem;
+    animation-name: coming_soon_P_animation;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 2s;
+    display: grid;
+    align-items: center;
+}
+
+@keyframes coming_soon_P_animation {
+    0% {
+        font-size: 160%;
+    }
+    50% {
+        font-size: 300%;
+    }
+    100% {
+        font-size: 160%;
+    }
+}
+
+.right_aside {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-top: 0%;
+    width: 10vw;
+    height: 100vh;
+}
+
+.p_email_number {
+    margin-top: 5%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    margin-bottom: 0%;
+    background-image: repeating-linear-gradient(to bottom, rgba(245, 222, 179, 0.527), white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100%;
+}
