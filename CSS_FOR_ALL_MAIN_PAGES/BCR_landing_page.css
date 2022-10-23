@@ -8,7 +8,7 @@
 
 .html_body {
     width: 100vw;
-    background-image: url("../Media/background3_1_1.gif");
+    background-image: url('./Media/background3_1_1.gif');
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: 'Roboto', sans-serif;
