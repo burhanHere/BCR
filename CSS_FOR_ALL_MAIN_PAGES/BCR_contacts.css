@@ -82,7 +82,7 @@
 }
 
 .phone {
-    background-image: url("./Media/Phone2_2.png");
+    background-image: url("../Media/Phone2_2.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90%;
@@ -123,23 +123,23 @@
 }
 
 .icon1 {
-    background-image: url("./Media/facebook.png");
+    background-image: url("../Media/facebook.png");
 }
 
 .icon2 {
-    background-image: url("./Media/twitter.png");
+    background-image: url("../Media/twitter.png");
 }
 
 .icon3 {
-    background-image: url("./Media/instagram.png");
+    background-image: url("../Media/instagram.png");
 }
 
 .icon4 {
-    background-image: url("./Media/whatsapp.png");
+    background-image: url("../Media/whatsapp.png");
 }
 
 .icon5 {
-    background-image: url("./Media/youtube.png");
+    background-image: url("../Media/youtube.png");
 }
 
 /*NOTE ::::: These comments will be removed when we want to add new social media handels on this page.*/
